@@ -53,7 +53,7 @@ struct Index {
       // 标题
       Text($r('app.string.ExerciseSequence'))
         .fontWeight(FontWeight.Bold)
-        .fontSize(26)
+        .fontSize(24)
         .margin({ top: 15, bottom: 10 });
 
       // 记录列表区域
@@ -83,7 +83,7 @@ struct Index {
 
       // 添加记录按钮（放在底部）
       Button('添加记录')
-        .width('50%')
+        .width('80%')
         .height(45)
         .fontSize(16)
         .backgroundColor('#4CAF50')
@@ -110,7 +110,7 @@ struct Index {
     Column() {
       // 标题
       Text('添加运动记录')
-        .fontSize(24)
+        .fontSize(22)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 10, bottom: 20 });
 
@@ -126,7 +126,7 @@ struct Index {
             GridItem() {
               Column() {
                 Text(item.icon)
-                  .fontSize(28);
+                  .fontSize(24);
                 Text(item.name)
                   .fontSize(12)
                   .margin({ top: 4 });
@@ -251,7 +251,7 @@ struct Index {
       Button('保存记录')
         .width('90%')
         .height(50)
-        .fontSize(18)
+        .fontSize(16)
         .backgroundColor('#4CAF50')
         .onClick(async () => {
           const selected = this.exerciseTypes[this.selectedExerciseIndex];

@@ -2,6 +2,9 @@
   "src": [
     "pages/MainIndex",
     "pages/AuthIndex",
-    "pages/ExerciseSequenceIndex"
+    "pages/ExerciseSequenceIndex",
+    "pages/DashboardIndex",
+    "pages/GoalsIndex",
+    "pages/WeightIndex"
   ]
 }
