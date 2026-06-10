@@ -47,6 +47,14 @@
     {
       "name": "RequestAuthorizations",
       "value": "查看说明"
+    },
+    {
+      "name": "permission_reason_datasync",
+      "value": "用于设备间的分布式数据同步"
+    },
+    {
+      "name": "permission_reason_dm",
+      "value": "用于访问设备管理服务"
     }
   ]
 }

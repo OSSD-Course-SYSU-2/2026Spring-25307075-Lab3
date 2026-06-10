@@ -47,6 +47,22 @@
     {
       "name": "RequestAuthorizations",
       "value": "RequestAuthorizations"
+    },
+    {
+      "name": "permission_reason_datasync",
+      "value": "Used for distributed data synchronization between devices"
+    },
+    {
+      "name": "permission_reason_dm",
+      "value": "Used for accessing device management service"
+    },
+    {
+      "name": "permission_reason_internet",
+      "value": "Used for network access and monitoring"
+    },
+    {
+      "name": "permission_reason_network",
+      "value": "Used for getting network information"
     }
   ]
 }

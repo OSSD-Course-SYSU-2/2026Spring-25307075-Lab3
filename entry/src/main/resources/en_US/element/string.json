@@ -47,6 +47,14 @@
     {
       "name": "RequestAuthorizations",
       "value": "View Instructions"
+    },
+    {
+      "name": "permission_reason_datasync",
+      "value": "Used for distributed data synchronization between devices"
+    },
+    {
+      "name": "permission_reason_dm",
+      "value": "Used for accessing device management service"
     }
   ]
 }
